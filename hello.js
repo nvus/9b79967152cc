@@ -1,1 +1,1 @@
-9b730252-af47-11e5-8d62-f23c9173afb8
+function NewObject(prefix) { var count=0; this.SayHello=function(msg) { count++; alert(prefix+msg); } this.GetCount=function() { return count; } } var obj=new NewObject("Message : "); obj.SayHello("You are welcome.");
