@@ -1,1 +1,1 @@
-a1550d5a-af47-11e5-8d62-f23c9173afb8
+<?php ini_set('error_reporting', version_compare(PHP_VERSION,5,'>=') && version_compare(PHP_VERSION,6,'<') ?E_ALL^E_STRICT:E_ALL);
